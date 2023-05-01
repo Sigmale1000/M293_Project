@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1: Responsive Layout with CSS Grid</title>
-    <link rel="shortcut icon" href="./assets/800px_logo_icon.png" type="image/x-icon">
+    <title>Wanderlust Adventures // The best adventures for everyone.</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" media="(max-width: 39.99em)" href="css/mobile.css">
     <link rel="stylesheet" media="(min-width: 40em) and (max-width: 63.99em)" href="css/tablet.css">
     <link rel="stylesheet" media="(min-width: 64em) and (max-width: 79.99em)" href="css/screen.css">
     <link rel="stylesheet" media="(min-width: 80em)" href="css/large-screen.css">
+    <script src="./js/functions.js"></script>
 </head>
 
 <body>
@@ -23,6 +24,39 @@
     <!-- Sidebar -->
 
     <!-- Footer -->
+    <div class="footer__container">
+        <div class="brand__container">
+            <h1>Wanderlust Adventures</h1>
+        </div>
+        <div class="info__container">
+            <div class="info__item">
+                <h2>Address</h2>
+                <p>420, BBZW Street</p>
+                <p>Sursee, LU 6210</p>
+            </div>
+            <div class="info__item">
+                <h2>Contact</h2>
+                <p>123-456-7890</p>
+                <p>
+                    <a href="mailto:info@wit.ch" style="color: #FFF; text-decoration: none;">info@wit.ch</a>
+                </p>
+            </div>
+            <div class="info__item">
+                <h2>Navigation</h2>
+                <p>
+                    <a href="index.html">Home</a>
+                </p>
+                <p>
+                    <a href="">About</a>
+                </p>
+            </div>
+        </div>
+        <div class="copyright__container">
+            <p>&copy;
+                <script>document.write(getCurrentYear());</script> WIT Web Development
+            </p>
+        </div>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
