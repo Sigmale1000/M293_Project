@@ -1,64 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wanderlust Adventures // The best adventures for everyone.</title>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" media="(max-width: 39.99em)" href="css/mobile.css">
-    <link rel="stylesheet" media="(min-width: 40em) and (max-width: 63.99em)" href="css/tablet.css">
-    <link rel="stylesheet" media="(min-width: 64em) and (max-width: 79.99em)" href="css/screen.css">
-    <link rel="stylesheet" media="(min-width: 80em)" href="css/large-screen.css">
-    <script src="./js/script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming News</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- Header -->
-
-    <!-- Navigation -->
-
-    <!-- Content -->
-
-    <!-- Sidebar -->
-
-    <!-- Footer -->
-    <div class="footer__container">
-        <div class="brand__container">
-            <h1>Wanderlust Adventures</h1>
+  <header>
+    <h1>Gaming News</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#games">Spiele</a></li>
+      <li><a href="#articles">Neueste Artikel</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+  </nav>
+  <main >
+    <section id="articles">
+      <h2>Neueste Gaming News</h2>
+      <article>
+        <h3>CS:GO: Neues Update verbessert Spielbalance</h3>
+        <p>Das neueste Update für Counter-Strike: Global Offensive bringt wichtige Verbesserungen für die Spielbalance... Weiterlesen</p>
+      </article>
+      <article>
+        <h3>Fantasy-Spiel DEF bekommt Fortsetzung</h3>
+        <p>Das beliebte Fantasy-Spiel DEF wird fortgesetzt, wie die Entwickler heute bekannt gaben... Weiterlesen</p>
+      </article>
+      <article>
+        <h3>Hades: Actionreiches Rogue-Like Spiel begeistert Spieler</h3>
+        <p>Hades, das von Supergiant Games entwickelte Rogue-Like Actionspiel, hat seit seiner Veröffentlichung große Anerkennung erhalten... Weiterlesen</p>
+      </article>
+      <article>
+        <h3>Rocket League: Neues Event und Belohnungen angekündigt</h3>
+        <p>Psyonix hat ein neues zeitlich begrenztes Event für Rocket League angekündigt, bei dem Spieler exklusive Belohnungen verdienen können... Weiterlesen</p>
+      </article>
+      <article>
+        <h3>Among Us: Entwickler kündigen neue Karte und Spielmodi an</h3>
+        <p>Innersloth, das Entwicklerstudio hinter Among Us, hat eine brandneue Karte und verschiedene Spielmodi für das beliebte Partyspiel angekündigt... Weiterlesen</p>
+      </article>
+      <article>
+        <h3>The Witcher 3: Wild Hunt: Nächste Generation Update verfügbar</h3>
+        <p>CD Projekt Red hat das lang erwartete Next-Gen-Update für The Witcher 3: Wild Hunt veröffentlicht, das verbesserte Grafik und Performance bietet... Weiterlesen</p>
+      </article>
+      <article>
+        <h3>Rust: Neues Monthly Update</h3>
+        <p>Facepunch hat ein neues monatliches Update gemacht. Die Spieler erwarten viel, was haben sie zu bieten? Weiterlesen</p>
+      </article>
+      <article>
+        <h3>Star Citizen: Viele Bugs und unspielbare Server</h3>
+        <p>Robert Space Industries (RSI) hat immer wieder viele Probleme mit Bugs und Fehlern im Alpha-Game. Diesmal haben sie aber alles übertroffen... Weiterlesen</p>
+      </article>
+    </section>
+    <aside id="games">
+        <h3>Beliebte Spiele</h3>
+        <div class="card-container">
+          <div class="card">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1668125812" alt="Spiel 1">
+            <h4>Counter Strike</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          </div>
+          <div class="card">
+            <img src="https://www.pcgames.de/screenshots/original/2020/06/01-Artwork-buffed2.png" alt="Spiel 2">
+            <h4>Valorant</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          </div>
+          <div class="card">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/252490/header.jpg?t=1678981332" alt="Spiel 3">
+            <h4>RUST</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          </div>
+          <div class="card">
+            <img src="https://www.pcgames.de/screenshots/1000x562/2017/03/star-citizen-Sabre-pc-games2.jpg" alt="Spiel 4">
+            <h4>Star Citizen</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          </div>
         </div>
-        <div class="info__container">
-            <div class="info__item">
-                <h2>Address</h2>
-                <p>420, BBZW Street</p>
-                <p>Sursee, LU 6210</p>
-            </div>
-            <div class="info__item">
-                <h2>Contact</h2>
-                <p>123-456-7890</p>
-                <p>
-                    <a href="mailto:info@wit.ch" style="color: #FFF; text-decoration: none;">info@wit.ch</a>
-                </p>
-            </div>
-            <div class="info__item">
-                <h2>Navigation</h2>
-                <p>
-                    <a href="index.html">Home</a>
-                </p>
-                <p>
-                    <a href="">About</a>
-                </p>
-            </div>
-        </div>
-        <div class="copyright__container">
-            <p>&copy;
-                <script>document.write(getCurrentYear());</script> WIT Web Development
-            </p>
-        </div>
-    </div>
-
-    <script src="js/script.js"></script>
+      </aside>
+  </main>
+  <footer id="contact">
+    <p>&copy; 2023 Gaming News. Alle Rechte vorbehalten.</p>
+  </footer>
 </body>
-
 </html>

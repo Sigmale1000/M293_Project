@@ -1,0 +1,131 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+nav {
+  background-color: #333;
+  padding: 0.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+nav li {
+  margin: 0.5em 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  padding: 1em;
+}
+
+section {
+  order: 2;
+}
+
+aside {
+  background-color: #f0f0f0;
+  padding: 1em;
+  order: 1;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 1em;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1em;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card h4 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-decoration: underline 2.5px red;
+}
+
+.card p {
+  font-size: 0.9em;
+  text-align: justify;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 1em;
+  font-size: 13px;
+}
+
+/* Responsive Layout */
+@media screen and (min-width: 40em) {
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav li {
+    margin: 0 1em;
+  }
+
+  main {
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  main {
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+@media screen and (min-width: 80em) {
+  main {
+    grid-template-columns: 2fr 2fr;
+  }
+}
